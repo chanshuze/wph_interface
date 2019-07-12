@@ -2,7 +2,7 @@
 import requests
 import unittest
 class updateUserSubscribe(unittest.TestCase):
-    #前置登录就是为了token，哈哈
+    #前置登录就是为了token
     def setUp(self):
         self.s=requests.session()
         loginheader = {
